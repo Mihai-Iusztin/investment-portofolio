@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofoliu Investitii</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <script src="profit.js" defer></script>
+    <script src="sector.js" defer></script>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Portofoliu Investitii</h1>
+      <button id="seeResults">See Results</button>
+      <button id="sector_btn">Sector Distribution</button>
+      <button id="addInvestment">Add new</button>
+    </header>
+    <form action="" method="post" id="form">
+      <table>
+        <thead>
+          <tr>
+            <th>Instrument</th>
+            <th>Symbol</th>
+            <th>Open date</th>
+            <th>Number stk.</th>
+            <th>Open price</th>
+            <th>Market price</th>
+            <th>Gross Profit</th>
+            <th>Domain</th>
+            <th>Dividend date</th>
+            <th>Earning date</th>
+            <th>Corporation</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="modal">
+        <div id="modal1" class="modal">
+          <label for="name">Instrument</label><br />
+          <input type="text" id="instrument" name="name" />
+          <label for="symbol">Symbol</label><br />
+          <input type="text" id="symbol" name="symbol" />
+          <label for="volum">Numar Actiuni</label><br />
+          <input type="number" id="volum" name="volum" />
+        </div>
+        <div id="modal2" class="modal">
+          <label for="openD">Open Date</label>
+          <input type="date" id="openD" name="openD" />
+          <label for="open">Open Price</label>
+          <input type="number" id="open" name="open" />
+          <label for="market">Market Price</label>
+          <input type="number" id="market" name="market" />
+        </div>
+        <div id="modal3" class="modal">
+          <label for="domain">Industry</label>
+          <select name="domain" id="domain">
+            <option value="">Please choose an domain</option>
+            <option value="cash">Cash</option>
+            <option value="semiconductors">Semiconductors</option>
+            <option value="biotechnology">Biotechnology</option>
+            <option value="healthcare">Health Care</option>
+            <option value="realestate">REIT</option>
+            <option value="banks">Banks</option>
+            <option value="auto">Auto</option>
+            <option value="chemicals">Chemicals</option>
+            <option value="construction">Construction</option>
+            <option value="hotels">Hotels,Restaurants and Leisure</option>
+            <option value="metals">Metals & Mining</option>
+            <option value="energy">Energy</option>
+            <option value="software">IT & Software</option>
+            <option value="utilities">Utilities</option>
+          </select>
+        </div>
+        <div id="modal4" class="modal">
+          <label for="dividend">Dividend date</label>
+          <input type="date" id="dividend" name="dividend" />
+          <label for="earnings">Earnings date</label>
+          <input type="date" id="earnings" name="earnings" />
+        </div>
+        <div class="modal">
+          <label for="corporation">Corp. URL</label>
+          <input type="url" id="corporation" name="corporation" />
+        </div>
+        <div class="modal_btn">
+          <button class="add_btn" id="submit-btn">Submit</button>
+          <button class="add_btn" id="cancel-btn" type="button">Cancel</button>
+          <button class="add-btn" id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </form>
+    <div id="overlay"></div>
+    <div id="profit_id">
+      <div class="chart-hd">
+        <h1>Profit/Loss</h1>
+        <button id="back-tb">Back</button>
+      </div>
+      <div id="main"></div>
+    </div>
+    <div id="sector_id">
+      <div class="chart-hd">
+        <h1>Sector Distribution</h1>
+        <button id="back-tb1">Back</button>
+      </div>
+      <div id="main1"></div>
+    </div>
+  </body>
+</html>

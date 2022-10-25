@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  --bg-primary: rgb(3, 3, 102);
+  --bg-secondary: rgb(203, 230, 246);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+  height: 150px;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  background-image: url("media/header2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 20;
+}
+
+#title.invisible {
+  transform: scale(0);
+  transition: 200ms ease-in-out;
+}
+
+#title a {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+header button {
+  font-size: 1.5rem;
+  height: 3rem;
+  margin: 5rem 2.5rem 0 0;
+  background: var(--bg-primary);
+  color: rgb(160, 240, 113);
+  border-radius: 5px;
+  border: 2px solid rgb(160, 240, 113);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+table {
+  width: 100%;
+  padding-top: 150px;
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+  z-index: 5;
+}
+
+table.invisible {
+  display: none;
+  transition: 200ms ease-in-out;
+}
+
+th {
+  background: var(--bg-primary);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+
+td {
+  padding: 0.15rem;
+}
+
+#modal {
+  transform: scale(0);
+  transition: 200ms ease-in-out;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+  border: 1px solid var(--bg-primary);
+  box-shadow: 0 0.25rem 0.5rem var(--bg-primary);
+  border-radius: 10px;
+  z-index: 100;
+  background-color: white;
+  width: 900px;
+  max-width: 90%;
+}
+
+#modal.active {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+}
+
+#title {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+}
+
+.modal {
+  display: flex;
+  padding: 0.5rem;
+  margin: 0.5rem 0.25rem;
+}
+label,
+input, select {
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  height: 2.5rem;
+}
+
+.modal input[name="symbol"] {
+  width: 4rem;
+}
+
+.modal input[name="volum"] {
+  width: 4rem;
+}
+
+.modal input[name="open"],
+.modal input[name="market"] {
+  width: 6rem;
+}
+
+input:focus {
+  outline: 2px solid var(--bg-primary);
+  background-color: var(--bg-secondary);
+}
+
+.modal_btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.add_btn {
+  font-size: 1.5rem;
+  margin: 2rem 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+#reset-btn {
+  font-size: 1.5rem;
+  margin: 2rem 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(187, 211, 233, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+  z-index: 2;
+}
+
+#main, #main1 {
+  top: 0;
+  /* left: 20%; */
+  width: 1000px;
+  height: 600px;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+  border: 1px solid var(--bg-primary);
+  box-shadow: 0 0.25rem 0.5rem var(--bg-primary);
+  border-radius: 10px;
+  background-color: white;
+  max-width: 90%;
+
+}
+
+
+
+#profit_id,#sector_id {
+  top: 2%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-start;
+  position: absolute;
+  transform: scale(0);
+  transition: 200ms ease-in-out;
+  /* margin:auto */
+  
+}
+
+#profit_id.active,#sector_id.active {
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+}
+
+.chart-hd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  margin-right: 4rem;
+}
+
+.chart-hd h1 {
+  font-size: 3rem;
+   color: var(--bg-primary);
+}
+
+
+
+#back-tb, #back-tb1 {
+  font-size: 1.5rem;
+  height: 3rem;
+  margin: 1rem 2.5rem 0 0;
+  background: var(--bg-primary);
+  color: rgb(160, 240, 113);
+  border-radius: 5px;
+  border: 2px solid rgb(160, 240, 113);
+}
