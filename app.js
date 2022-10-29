@@ -21,7 +21,7 @@ const API = {
   },
 };
 
-const isDemo = false || location.host === 'mihai-iusztin.github.io';
+const isDemo = true || location.host === 'mihai-iusztin.github.io';
 const fetchYahooPrices = false;
 const inlineChanges = isDemo;
 if (isDemo) {
