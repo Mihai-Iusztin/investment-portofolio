@@ -262,7 +262,6 @@ function submitForm(event) {
             location.reload();
           }
           closeModal();
-          form.reset();
         }
       });
   }
@@ -344,7 +343,7 @@ loadInstruments().then((instruments) => {
         instrument.marketP = newPrices[index].marketP;
         return instrument;
       });
-      displayCharts(instruments);
+      displayCharts(newInstruments);
     });
   }
 });
