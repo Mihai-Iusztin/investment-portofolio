@@ -1,23 +1,27 @@
 const API = {
   CREATE: {
     URL: 'http://localhost:3000/instruments-json/new',
+    // URL: 'http://localhost:3000/investments/create',
     METHOD: 'POST',
   },
   READ: {
     URL: 'http://localhost:3000/instruments-json',
+    // URL: 'http://localhost:3000/investments',
     METHOD: 'GET',
   },
   UPDATE: {
     URL: 'http://localhost:3000/instruments-json/update',
+    // URL: 'http://localhost:3000/investments/update',
     METHOD: 'PUT',
   },
   DELETE: {
     URL: 'http://localhost:3000/instruments-json/delete',
+    // URL: 'http://localhost:3000/investments/delete',
     METHOD: 'DELETE',
   },
 };
 
-const isDemo = true || location.host === 'mihai-iusztin.github.io';
+const isDemo = false || location.host === 'mihai-iusztin.github.io';
 const fetchYahooPrices = false;
 const inlineChanges = isDemo;
 if (isDemo) {
@@ -178,6 +182,7 @@ function loadInstruments() {
       })
   );
 }
+
 const method = API.CREATE.METHOD;
 function newInstrumentRequest(instrument) {
   return fetch(API.CREATE.URL, {
