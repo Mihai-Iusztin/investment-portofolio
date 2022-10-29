@@ -74,6 +74,7 @@ function closeModal() {
   modalInput.classList.remove('active');
   overlay.classList.remove('active');
   title.classList.remove('invisible');
+  form.reset();
 }
 
 function getInvestmensHTML(instrument) {
@@ -143,6 +144,7 @@ function displayInstruments(instruments) {
     instrumentsHTML += getInvestmensHTML(instrument);
   });
   tBody.innerHTML = instrumentsHTML;
+  loadGrossProfit(instruments);
 }
 
 function fetchMarketPrice(symbol) {
@@ -236,13 +238,11 @@ function submitForm(event) {
             i.id === editId ? instrument : i
           );
           displayInstruments(allInstruments);
-          loadGrossProfit(allInstruments);
         } else {
           loadInstruments();
           location.reload();
         }
         closeModal();
-        form.reset();
       }
     });
   } else {
@@ -257,7 +257,6 @@ function submitForm(event) {
             ];
 
             displayInstruments(allInstruments);
-            loadGrossProfit(allInstruments);
           } else {
             loadInstruments();
             location.reload();
@@ -279,6 +278,12 @@ function sectorCharts() {
   table.classList.add('invisible');
   title.classList.add('invisible');
   sectorId.classList.add('active');
+}
+
+function displayCharts(instruments) {
+  displayInstruments(instruments);
+  instrumentsResults(instruments);
+  domainChart(instruments);
 }
 
 function backToTable() {
@@ -308,7 +313,6 @@ form.querySelector('tbody').addEventListener('click', (event) => {
             (instrument) => instrument.id !== id
           );
           displayInstruments(allInstruments);
-          loadGrossProfit(allInstruments);
         }
         loadInstruments();
         location.reload();
@@ -329,10 +333,7 @@ backToTableBtn1.addEventListener('click', backToTable);
 loadInstruments().then((instruments) => {
   console.log(instruments);
   if (!fetchYahooPrices) {
-    displayInstruments(instruments);
-    loadGrossProfit(instruments);
-    instrumentsResults(instruments);
-    domainChart(instruments);
+    displayCharts(instruments);
   } else {
     const requests = instruments.map((instrument) => {
       return fetchMarketPrice(instrument.symbol);
@@ -343,10 +344,7 @@ loadInstruments().then((instruments) => {
         instrument.marketP = newPrices[index].marketP;
         return instrument;
       });
-      displayInstruments(newInstruments);
-      loadGrossProfit(newInstruments);
-      instrumentsResults(newInstruments);
-      domainChart(newInstruments);
+      displayCharts(instruments);
     });
   }
 });
