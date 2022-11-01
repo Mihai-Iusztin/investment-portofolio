@@ -9,21 +9,8 @@
     "marketP": "133",
     "domain": "Biotechnology",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.tradingview.com/chart/KcD9WeJn/",
+    "earningD": "2022-10-20",
     "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
-  },
-  {
-    "id": "z97rid1666426595922",
-    "name": "AMD",
-    "symbol": "AMD",
-    "openD": "2022-10-28",
-    "quantity": "10",
-    "openP": "50",
-    "marketP": "58",
-    "domain": "semiconductors",
-    "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
     "id": "z97rid1676426595922",
@@ -32,10 +19,10 @@
     "openD": "2022-10-28",
     "quantity": "12",
     "openP": "23",
-    "marketP": "27",
-    "domain": "Construction",
+    "marketP": "26",
+    "domain": "biotechnology",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-30",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -46,9 +33,9 @@
     "quantity": "22",
     "openP": "33",
     "marketP": "35",
-    "domain": "Auto",
+    "domain": "semiconductors",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-29",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -61,7 +48,7 @@
     "marketP": "35",
     "domain": "Banks",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-20",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -71,10 +58,10 @@
     "openD": "2022-10-28",
     "quantity": "35",
     "openP": "86",
-    "marketP": "90",
-    "domain": "Health Care",
+    "marketP": "79",
+    "domain": "healthcare",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-20",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -84,10 +71,10 @@
     "openD": "2022-10-28",
     "quantity": "25",
     "openP": "27",
-    "marketP": "31",
-    "domain": "Chemicals",
+    "marketP": "35",
+    "domain": "chemicals",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-20",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -100,7 +87,7 @@
     "marketP": "120",
     "domain": "semiconductors",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-20",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -113,7 +100,7 @@
     "marketP": "31",
     "domain": "REIT",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-10-20",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   },
   {
@@ -124,9 +111,9 @@
     "quantity": "105",
     "openP": "8",
     "marketP": "9",
-    "domain": "IT & Software",
+    "domain": "software",
     "dividendD": "2022-10-20",
-    "earningD": "https://www.youtube.com/watch?v=tY-Rq_R_wyE",
+    "earningD": "2022-11-26",
     "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
   }
 ]
