@@ -4,12 +4,12 @@
     "name": "Moderna Inc.",
     "symbol": "MRNA",
     "openD": "2022-10-07",
-    "quantity": "17",
+    "quantity": "12",
     "openP": "125",
-    "marketP": "133",
-    "domain": "Biotechnology",
+    "marketP": "167",
+    "domain": "biotechnology",
     "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
+    "earningD": "2022-11-24",
     "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
@@ -19,37 +19,11 @@
     "openD": "2022-10-28",
     "quantity": "12",
     "openP": "23",
-    "marketP": "26",
-    "domain": "biotechnology",
+    "marketP": "28",
+    "domain": "construction",
     "dividendD": "2022-10-20",
     "earningD": "2022-10-30",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
-  },
-  {
-    "id": "z97rid1676426585922",
-    "name": "General Motors Company",
-    "symbol": "GM",
-    "openD": "2022-10-28",
-    "quantity": "22",
-    "openP": "33",
-    "marketP": "35",
-    "domain": "semiconductors",
-    "dividendD": "2022-10-20",
-    "earningD": "2022-10-29",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
-  },
-  {
-    "id": "z97rid1676426585922",
-    "name": "Bank of America Corp",
-    "symbol": "BAC",
-    "openD": "2022-10-28",
-    "quantity": "32",
-    "openP": "36",
-    "marketP": "35",
-    "domain": "Banks",
-    "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
     "id": "z97rid1676426586922",
@@ -58,11 +32,11 @@
     "openD": "2022-10-28",
     "quantity": "35",
     "openP": "86",
-    "marketP": "79",
+    "marketP": "67",
     "domain": "healthcare",
     "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "earningD": "2022-10-28",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
     "id": "z97rid1676426586932",
@@ -71,11 +45,11 @@
     "openD": "2022-10-28",
     "quantity": "25",
     "openP": "27",
-    "marketP": "35",
+    "marketP": "32",
     "domain": "chemicals",
     "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "earningD": "2022-12-29",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
     "id": "z97rid1676426586935",
@@ -84,11 +58,11 @@
     "openD": "2022-10-28",
     "quantity": "15",
     "openP": "122",
-    "marketP": "120",
+    "marketP": "139",
     "domain": "semiconductors",
     "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "earningD": "2022-11-16",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
     "id": "z97rid1679426586935",
@@ -98,10 +72,10 @@
     "quantity": "25",
     "openP": "29",
     "marketP": "31",
-    "domain": "REIT",
+    "domain": "realestate",
     "dividendD": "2022-10-20",
-    "earningD": "2022-10-20",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "earningD": "2022-10-27",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   },
   {
     "id": "z97rid1649426586935",
@@ -110,10 +84,88 @@
     "openD": "2022-10-28",
     "quantity": "105",
     "openP": "8",
-    "marketP": "9",
+    "marketP": "7",
     "domain": "software",
     "dividendD": "2022-10-20",
     "earningD": "2022-11-26",
-    "corporation": "https://www.youtube.com/watch?v=tY-Rq_R_wyE"
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "h4jrp1668010206980",
+    "name": "Bank of America Corp",
+    "symbol": "BAC",
+    "openD": "2022-11-08",
+    "quantity": "15",
+    "openP": "36",
+    "marketP": "38",
+    "domain": "banks",
+    "dividendD": "2022-11-30",
+    "earningD": "2022-11-05",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "gqmbci1668010329259",
+    "name": "General Motors Co",
+    "symbol": "GM",
+    "openD": "2022-11-08",
+    "quantity": "15",
+    "openP": "36",
+    "marketP": "39",
+    "domain": "auto",
+    "dividendD": "2022-11-15",
+    "earningD": "2022-11-24",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "2nwsqi1668010737198",
+    "name": "Rio Tinto Plc",
+    "symbol": "RIO",
+    "openD": "2022-11-09",
+    "quantity": "17",
+    "openP": "58",
+    "marketP": "60",
+    "domain": "metals",
+    "dividendD": "2022-12-31",
+    "earningD": "2022-12-28",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "yoatld1668010828460",
+    "name": "Surgery Partners Inc",
+    "symbol": "SGRY",
+    "openD": "2022-11-09",
+    "quantity": "15",
+    "openP": "21",
+    "marketP": "23",
+    "domain": "healthcare",
+    "dividendD": "2023-01-26",
+    "earningD": "2022-12-23",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "5sz051668010980552",
+    "name": "Advanced Micro Devices Inc",
+    "symbol": "AMD",
+    "openD": "2022-11-07",
+    "quantity": "10",
+    "openP": "58",
+    "marketP": "61",
+    "domain": "semiconductors",
+    "dividendD": "2022-11-26",
+    "earningD": "2022-11-30",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
+  },
+  {
+    "id": "7ddov1668011171053",
+    "name": "Caterpillar Inc",
+    "symbol": "CAT",
+    "openD": "2022-11-08",
+    "quantity": "3",
+    "openP": "222",
+    "marketP": "227",
+    "domain": "construction",
+    "dividendD": "2022-11-17",
+    "earningD": "2022-11-14",
+    "corporation": "https://www.tradingview.com/chart/KcD9WeJn/"
   }
 ]

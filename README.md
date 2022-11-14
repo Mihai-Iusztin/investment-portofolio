@@ -18,9 +18,11 @@ Investment Portofolio
 - [x] create CRUD to instruments
 - [x]connect with API
 
-- [x] profitability functions -[x] CRUD facilities in github -[x] synchronizing with Yahoo-Finance API
+- [x] profitability functions
+- [x] CRUD facilities in github
+- [x] synchronizing with Yahoo-Finance API
 - [ ] search facility
-- [x] add charts for Domain with Apache ECharts
+- [x] add charts for Domain and profitability with Apache ECharts
 - [x] connect to DB
 
 Current app can connect with external [investment-portofolio-api](https://github.com/Mihai-Iusztin/investment-portofolio-api) to store data in json.

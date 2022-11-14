@@ -21,7 +21,7 @@ const API = {
   },
 };
 
-const isDemo = true || location.host === 'mihai-iusztin.github.io';
+const isDemo = false || location.host === 'mihai-iusztin.github.io';
 const fetchYahooPrices = false;
 const inlineChanges = isDemo;
 if (isDemo) {
@@ -155,7 +155,7 @@ function fetchMarketPrice(symbol) {
     method: 'POST',
     headers: {
       'content-type': 'application/x-www-form-urlencoded',
-      'X-RapidAPI-Key': '00000000222222222222',
+      'X-RapidAPI-Key': '00000555555555555555555',
       'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com',
     },
     body: encodedParams,
@@ -319,6 +319,7 @@ form.querySelector('tbody').addEventListener('click', (event) => {
     });
   } else if (event.target.matches('a.edit-btn')) {
     const id = event.target.getAttribute('data-id');
+    console.log(id);
     startEditForm(id);
     addNewInstrument();
   }
