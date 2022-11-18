@@ -3,7 +3,7 @@
 }
 
 :root {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   --bg-primary: rgb(3, 3, 102);
   --bg-secondary: rgb(203, 230, 246);
@@ -22,7 +22,7 @@ header {
   position: fixed;
   margin-top: 0;
   width: 100%;
-  background-image: url("media/header2.jpg");
+  background-image: url('media/header2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,22 +119,23 @@ td {
   margin: 0.5rem 0.25rem;
 }
 label,
-input, select {
+input,
+select {
   font-size: 1.4rem;
   margin: 0.5rem;
   height: 2.5rem;
 }
 
-.modal input[name="symbol"] {
+.modal input[name='symbol'] {
   width: 4rem;
 }
 
-.modal input[name="volum"] {
+.modal input[name='volum'] {
   width: 4rem;
 }
 
-.modal input[name="open"],
-.modal input[name="market"] {
+.modal input[name='open'],
+.modal input[name='market'] {
   width: 6rem;
 }
 
@@ -179,12 +180,11 @@ input:focus {
   z-index: 2;
 }
 
-#main, #main1 {
+#main,
+#main1 {
   top: 0;
-  /* left: 20%; */
   width: 1000px;
   height: 600px;
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,26 +194,23 @@ input:focus {
   border-radius: 10px;
   background-color: white;
   max-width: 90%;
-
 }
 
-
-
-#profit_id,#sector_id {
+#profit_id,
+#sector_id {
   top: 2%;
   left: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   position: absolute;
   transform: scale(0);
   transition: 200ms ease-in-out;
-  /* margin:auto */
-  
 }
 
-#profit_id.active,#sector_id.active {
+#profit_id.active,
+#sector_id.active {
   transform: scale(1);
   transition: 200ms ease-in-out;
 }
@@ -223,18 +220,17 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
- 
+
   margin-right: 4rem;
 }
 
 .chart-hd h1 {
   font-size: 3rem;
-   color: var(--bg-primary);
+  color: var(--bg-primary);
 }
 
-
-
-#back-tb, #back-tb1 {
+#back-tb,
+#back-tb1 {
   font-size: 1.5rem;
   height: 3rem;
   margin: 1rem 2.5rem 0 0;

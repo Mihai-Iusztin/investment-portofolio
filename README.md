@@ -16,12 +16,11 @@ Investment Portofolio
 - [x] create **table**
 - [x] Table headers -> [instrument,symbol,open date,number stk.,open price,market price,gross profit,domain,dividend date,earning date,corporation-url ]
 - [x] create CRUD to instruments
-- [x]connect with API
+- [x] connect with API
 
 - [x] profitability functions
 - [x] CRUD facilities in github
 - [x] synchronizing with Yahoo-Finance API
-- [ ] search facility
 - [x] add charts for Domain and profitability with Apache ECharts
 - [x] connect to DB
 

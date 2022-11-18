@@ -21,7 +21,7 @@ const API = {
   },
 };
 
-const isDemo = false || location.host === 'mihai-iusztin.github.io';
+const isDemo = true || location.host === 'mihai-iusztin.github.io';
 const fetchYahooPrices = false;
 const inlineChanges = isDemo;
 if (isDemo) {
@@ -164,7 +164,6 @@ function fetchMarketPrice(symbol) {
   return fetch('https://yahoo-finance97.p.rapidapi.com/stock-info', options)
     .then((response) => response.json())
     .then((response) => {
-      console.log(symbol, response.data.currentPrice);
       return {
         symbol,
         marketP: parseInt(response.data.currentPrice),
@@ -331,14 +330,13 @@ backToTableBtn.addEventListener('click', backToTable);
 backToTableBtn1.addEventListener('click', backToTable);
 
 loadInstruments().then((instruments) => {
-  console.log(instruments);
   if (!fetchYahooPrices) {
     displayCharts(instruments);
   } else {
     const requests = instruments.map((instrument) => {
       return fetchMarketPrice(instrument.symbol);
     });
-    console.log(requests);
+
     Promise.all(requests).then((newPrices) => {
       const newInstruments = instruments.map((instrument, index) => {
         instrument.marketP = newPrices[index].marketP;
