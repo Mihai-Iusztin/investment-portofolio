@@ -47,10 +47,9 @@ const title = $('#title');
 const tBody = $('table tbody');
 const cancelBtn = $('#cancel-btn');
 const form = $('#form');
-let resetbtn = $('#reset-btn');
-let inputs = document.querySelectorAll('input');
+const resetbtn = $('#reset-btn');
 const chartDom = $('#main');
-var chartDom1 = $('#main1');
+const chartDom1 = $('#main1');
 const backToTableBtn = $('#back-tb');
 const backToTableBtn1 = $('#back-tb1');
 const seeResultsBtn = $('#seeResults');
@@ -155,7 +154,7 @@ function fetchMarketPrice(symbol) {
     method: 'POST',
     headers: {
       'content-type': 'application/x-www-form-urlencoded',
-      'X-RapidAPI-Key': '00000555555555555555555',
+      'X-RapidAPI-Key': '0000022222233333',
       'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com',
     },
     body: encodedParams,
@@ -295,7 +294,6 @@ addInvestmentBtn.addEventListener('click', addNewInstrument);
 cancelBtn.addEventListener('click', closeModal);
 resetbtn.addEventListener('click', (e) => {
   e.preventDefault();
-
   form.reset();
 });
 
@@ -318,7 +316,7 @@ form.querySelector('tbody').addEventListener('click', (event) => {
     });
   } else if (event.target.matches('a.edit-btn')) {
     const id = event.target.getAttribute('data-id');
-    console.log(id);
+
     startEditForm(id);
     addNewInstrument();
   }

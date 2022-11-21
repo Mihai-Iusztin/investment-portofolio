@@ -7,6 +7,7 @@ function domainChart(instruments) {
       parseInt(instrument.marketP) * parseInt(instrument.quantity);
     return { value: instrument.value, name: instrument.domain };
   });
+
   console.log(nameValueInstruments);
 
   let domainInstruments = [];
@@ -25,7 +26,6 @@ function domainChart(instruments) {
       domainInstruments.push(clonedValInstr);
     }
   }
-
   console.log(domainInstruments);
 
   option1 = {
