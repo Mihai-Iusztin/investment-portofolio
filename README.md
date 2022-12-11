@@ -31,6 +31,8 @@ Sector distribution :
 
 You should set your RapidAPI - Key in order to connect with Yahoo - Finance :
 
+```
+
 function fetchMarketPrice(symbol) {
 const encodedParams = new URLSearchParams();
 encodedParams.append('symbol', symbol);
@@ -55,6 +57,8 @@ marketP: parseInt(response.data.currentPrice),
 })
 .catch((err) => console.error(err));
 }
+
+```
 
 - [x] connect to DB
 
