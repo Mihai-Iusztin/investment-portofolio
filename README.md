@@ -11,11 +11,11 @@ Investment Portofolio
 
 [Demo](https://mihai-iusztin.github.io/investment-portofolio/)
 
-## Investment Portofolio : trading and investing in the Financial Matkets
+## Investment Portofolio : trading and investing in the Financial Markets
 
 <img src = "/media/investment_portofolio.jpg" alt = "Investment-portofolio" title = "Investment Portofolio">
 
-The goal of this App is to track your financial instruments synchronizing with Yahoo-finance.
+The goal of this App is to track your financial instruments synchronizing with Yahoo-Finance.
 
 ## Chart representation
 
