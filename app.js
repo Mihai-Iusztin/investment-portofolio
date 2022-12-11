@@ -154,7 +154,7 @@ function fetchMarketPrice(symbol) {
     method: 'POST',
     headers: {
       'content-type': 'application/x-www-form-urlencoded',
-      'X-RapidAPI-Key': '0000022222233333',
+      'X-RapidAPI-Key': '00000022222',
       'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com',
     },
     body: encodedParams,

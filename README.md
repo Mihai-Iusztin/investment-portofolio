@@ -13,8 +13,7 @@ Investment Portofolio
 
 ## Steps to create this project
 
-- [x] create **table**
-- [x] Table headers -> [instrument,symbol,open date,number stk.,open price,market price,gross profit,domain,dividend date,earning date,corporation-url ]
+<img src = "/media/investment_portofolio.jpg" alt = "Investment-portofolio" title = "Investment Portofolio">
 - [x] create CRUD to instruments
 - [x] connect with API
 
@@ -24,7 +23,7 @@ Investment Portofolio
 - [x] add charts for Domain and profitability with Apache ECharts
 - [x] connect to DB
 
-Current app can connect with external [investment-portofolio-api](https://github.com/Mihai-Iusztin/investment-portofolio-api) to store data in json.
+Current app can connect with external [investment-portofolio-api](https://github.com/Mihai-Iusztin/investment-portofolio-api) to store data in DB .
 
 ## Steps
 

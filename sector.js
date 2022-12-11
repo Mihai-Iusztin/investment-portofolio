@@ -8,8 +8,6 @@ function domainChart(instruments) {
     return { value: instrument.value, name: instrument.domain };
   });
 
-  console.log(nameValueInstruments);
-
   let domainInstruments = [];
 
   for (let valInstr of nameValueInstruments) {
@@ -26,7 +24,6 @@ function domainChart(instruments) {
       domainInstruments.push(clonedValInstr);
     }
   }
-  console.log(domainInstruments);
 
   option1 = {
     backgroundColor: '#2c343c',
