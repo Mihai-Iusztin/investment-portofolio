@@ -27,7 +27,34 @@ Sector distribution :
 
 <img src = "/media/sector_distribution_chart.jpg" alt = "Sector distribution" title = " Sector Distribution">
 
-- [x] synchronizing with Yahoo-Finance API
+## Synchronizing with Yahoo-Finance API
+
+You should set your RapidAPI - Key in order to connect with Yahoo - Finance :
+
+function fetchMarketPrice(symbol) {
+const encodedParams = new URLSearchParams();
+encodedParams.append('symbol', symbol);
+
+const options = {
+method: 'POST',
+headers: {
+'content-type': 'application/x-www-form-urlencoded',
+'X-RapidAPI-Key': '00000022222',
+'X-RapidAPI-Host': 'yahoo-finance97.p.rapidapi.com',
+},
+body: encodedParams,
+};
+
+return fetch('https://yahoo-finance97.p.rapidapi.com/stock-info', options)
+.then((response) => response.json())
+.then((response) => {
+return {
+symbol,
+marketP: parseInt(response.data.currentPrice),
+};
+})
+.catch((err) => console.error(err));
+}
 
 - [x] connect to DB
 
