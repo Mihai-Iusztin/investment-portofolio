@@ -60,7 +60,7 @@ marketP: parseInt(response.data.currentPrice),
 
 ```
 
-- [x] connect to DB
+## Connect to DB
 
 Current app can connect with external [investment-portofolio-api](https://github.com/Mihai-Iusztin/investment-portofolio-api) to store data in DB .
 
