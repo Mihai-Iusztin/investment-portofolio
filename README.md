@@ -11,11 +11,11 @@ Investment Portofolio
 
 [Demo](https://mihai-iusztin.github.io/investment-portofolio/)
 
-## Steps to create this project
+## Investment Portofolio : trading and investing in the Finacial Matkets
 
 <img src = "/media/investment_portofolio.jpg" alt = "Investment-portofolio" title = "Investment Portofolio">
-- [x] create CRUD to instruments
-- [x] connect with API
+
+The goal of this App is to track your finacial instruments synchronizing with Yahoo-finance.
 
 - [x] profitability functions
 - [x] CRUD facilities in github
