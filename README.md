@@ -11,16 +11,24 @@ Investment Portofolio
 
 [Demo](https://mihai-iusztin.github.io/investment-portofolio/)
 
-## Investment Portofolio : trading and investing in the Finacial Matkets
+## Investment Portofolio : trading and investing in the Financial Matkets
 
 <img src = "/media/investment_portofolio.jpg" alt = "Investment-portofolio" title = "Investment Portofolio">
 
-The goal of this App is to track your finacial instruments synchronizing with Yahoo-finance.
+The goal of this App is to track your financial instruments synchronizing with Yahoo-finance.
 
-- [x] profitability functions
-- [x] CRUD facilities in github
+## Chart representation
+
+Visual representation of instruments profitability with Apache ECharts:
+
+<img src = "/media/profit_loss_chart.jpg" alt = "Profit-loss" title = " Profit Loss">
+
+Sector distribution :
+
+<img src = "/media/sector_distribution_chart.jpg" alt = "Sector distribution" title = " Sector Distribution">
+
 - [x] synchronizing with Yahoo-Finance API
-- [x] add charts for Domain and profitability with Apache ECharts
+
 - [x] connect to DB
 
 Current app can connect with external [investment-portofolio-api](https://github.com/Mihai-Iusztin/investment-portofolio-api) to store data in DB .
